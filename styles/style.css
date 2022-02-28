@@ -24,6 +24,7 @@
   
 body{
     font-family: 'Bebas Neue', cursive;
+  
 }
 
 header{
@@ -127,6 +128,8 @@ section #banner{
 #banner img{
     width: 100%;
     height: 450px;
+    animation: fadeIn;
+    animation-duration: 3s;
 }
 
 #banner .banner-container{
@@ -183,6 +186,12 @@ section #banner{
 #productos-destacados img{
     width: 100%;
     max-width: 280px;
+    height: 190px;
+    transition: height 0.5s;
+}
+
+#productos-destacados img:hover{
+    height: 200px;
 }
 
 #brands{
